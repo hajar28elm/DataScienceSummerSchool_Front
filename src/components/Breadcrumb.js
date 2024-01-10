@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Breadcrumb(){
     return(
         <>
@@ -6,8 +8,8 @@ function Breadcrumb(){
                     <div className="container pt-lg-5 pt-3 p-lg-4 pb-3">
                         <h2 className="title mt-5 pt-lg-5 pt-sm-3">Get in touch</h2>
                         <ul className="breadcrumbs-custom-path pb-sm-5 pb-4 mt-2 text-center mb-md-5">
-                            <li><a href="index.html">Home</a></li>
-                            <li className="active"> / Contact us </li>
+                            <li><Link to="/">Home</Link></li>
+                            <li className="active"><Link to="/contact"> /contact us</Link> </li>
                         </ul>
                     </div>
                 </div>

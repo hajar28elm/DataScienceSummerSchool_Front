@@ -4,10 +4,12 @@ import Header from "./Header";
 import React from "react"
 import { Link } from "react-router-dom";
 
+
 function FAQ() {
   return (
-    <div style={{ textAlign: 'center' }}>
+    <>
      <Header />
+     <div style={{ textAlign: 'center' }}>
      <div class="prog">
         <h1>Frequently Asked Questions</h1>
        </div>
@@ -29,12 +31,13 @@ function FAQ() {
         <p>A: You can find practical information <Link to="https://www.diplomatie.gouv.fr/en/coming-to-france/" style={{color:"#e83e8c"}}>here</Link>.</p>
        </div>
        </div>
-       
+       </div>
+
 
        
 
     <Footer />
-  </div>
+    </>
   );
 }
 
