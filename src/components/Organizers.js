@@ -1,6 +1,5 @@
 import Header from "./Header"
 import Footer from "./Footer"
-import { Link } from 'react-router-dom';
 import Breadcrumb from "./Breadcrumb";
 function Organizers() {
 
